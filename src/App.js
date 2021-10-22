@@ -1,28 +1,24 @@
-import { Switch, Route } from 'react-router-dom':
-import './styles/App.css';
-
-import Introduction from './pages/Introduction'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
-import ProjectPage from './pages/ProjectPage'
+import Skills from './pages/Skills'
 
 import NavBar from './components/NavBar'
+// import NavBar from './components/SideBar'
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="App ">
       <NavBar />
-      <Switch>
-        <Route exact path='/' components={Introduction} />
-        <Route exact path='/projects' components={Projects} />
-        <Route exact path='/about' components={About} />
-        <Route exact path='/contact' components={Contact} />
-        <Route path='/projects/:projectName' components={ProjectPage} />
-      </Switch>
+      <main >
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
     </div>
-  );
+  )
 }
 
 export default App;
