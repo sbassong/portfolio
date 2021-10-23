@@ -6,7 +6,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    //send contact body here. maybe email? small backend?
+    //send contact formData here via emailjs
     emailjs.sendForm('service_ptzclcr', 'template_7y7ftfd', form.current, 'user_JuA2JWnC5u4koiSoQ48Rb')
       .then((result) => {
           console.log(result.text)
@@ -34,24 +34,18 @@ const Contact = () => {
             style={{ filter: "opacity(0.6)" }}
             src="https://www.google.com/maps/embed/v1/search?q=Seattle&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-gray-700 relative flex flex-wrap py-8 rounded shadow-md">
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+              <h2 className="title-font font-semibold text-white tracking-widest text-s">EMAIL</h2>
               <p className="text-indigo-400 leading-relaxed">sam.bassong@gmail.com</p>
 
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
-              <p className="leading-relaxed">206-402-7371</p>
-            </div>
+              <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">PHONE</h2>
+              <p className="leading-relaxed text-indigo-400">206-402-7371</p>
 
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                LOCATION
-              </h2>
-              <p className="mt-1">
-                Seattle, WA <br />
-                Remote
-              </p>
-            </div>
+              <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">LOCATION</h2>
+              <p className="mt-1 text-indigo-400">Seattle, WA <br />Remote</p>
+            </div> <div className="lg:w-1/2 px-6"></div><div className="lg:w-1/2 px-6"></div>
+
           </div>
         </div>
 
@@ -65,8 +59,7 @@ const Contact = () => {
             Let's chat!
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Please fill out the fields below and submit to send me an email and I'll get back to you shortly.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

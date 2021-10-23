@@ -3,14 +3,12 @@ import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 
-import NavBar from './components/NavBar'
-// import NavBar from './components/SideBar'
-
+import SideNav from './components/SideNav'
 
 const App = () => {
   return (
-    <div className="App ">
-      <NavBar />
+    <div className="App flex">
+      <SideNav />
       <main >
         <About />
         <Projects />
