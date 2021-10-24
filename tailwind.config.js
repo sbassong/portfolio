@@ -5,6 +5,7 @@ module.exports = {
     extend: {
         backgroundImage: {
           'needle-bg': "url('https://i.imgur.com/Ocqn1dd.jpg?2')",
+          'crystal-bg': "url('https://i.imgur.com/Io5GjW9.png')",
         }
       }
   },

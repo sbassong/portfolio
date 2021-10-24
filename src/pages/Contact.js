@@ -1,4 +1,6 @@
 import React, {useRef} from "react";
+import { FaPhoneSquareAlt } from "react-icons/fa"
+import { MdOutlineAlternateEmail, MdOutlineLocationOn} from "react-icons/md"
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -17,12 +19,10 @@ const Contact = () => {
     e.target.reset()
   }
 
-
-
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="lg:w-1/2 md:w-1/2 bg-gray-700 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             title="map"
             width="100%"
@@ -34,19 +34,24 @@ const Contact = () => {
             style={{ filter: "opacity(0.6)" }}
             src="https://www.google.com/maps/embed/v1/search?q=Seattle&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-700 relative flex flex-wrap py-8 rounded shadow-md">
+          
+          <div className="bg-black relative bg-opacity-70 text-white font-semibold text-xl flex flex-col my-5 mt-14 shadow-md p-3 rounded items-center">
+            <p className="w-3/4 my-2 inline-flex items-center py-1 px-1 focus:outline-none rounded text-base mt-4 md:mt-0"><FaPhoneSquareAlt className="w-5 h-5 mr-1" /> 206-402-7371</p>
+            <p className="my-2 inline-flex items-center py-1 px-1 focus:outline-none rounded text-base mt-4 md:mt-0"><MdOutlineAlternateEmail className="w-5 h-5 mr-1" /> sam.bassong@gmail.com</p>
+            <p className="my-2 inline-flex items-center py-1 px-1 focus:outline-none rounded text-base mt-4 md:mt-0"><MdOutlineLocationOn className="w-5 h-5 mr-1" /> Seattle, WA | Remote</p>
+          </div>
+          {/* <div className="bg-black bg-opacity-70 relative flex flex-wrap py-4 rounded shadow-md">
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-s">EMAIL</h2>
-              <p className="text-indigo-400 leading-relaxed">sam.bassong@gmail.com</p>
+              <p className="text-indigo-500 leading-relaxed">sam.bassong@gmail.com</p>
 
               <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">PHONE</h2>
-              <p className="leading-relaxed text-indigo-400">206-402-7371</p>
+              <p className="leading-relaxed text-indigo-500">206-402-7371</p>
 
               <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">LOCATION</h2>
-              <p className="mt-1 text-indigo-400">Seattle, WA <br />Remote</p>
+              <p className="mt-1 text-indigo-500">Seattle, WA <br />Remote</p>
             </div> <div className="lg:w-1/2 px-6"></div><div className="lg:w-1/2 px-6"></div>
-
-          </div>
+          </div> */}
         </div>
 
         <form
@@ -54,8 +59,8 @@ const Contact = () => {
           onSubmit={handleSubmit}
           netlify
           name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-blue sm:text-4xl text-3xl mb-1 font-medium title-font">
+          className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <h2 className="text-yellow-500 sm:text-4xl text-3xl mb-1 font-medium title-font">
             Let's chat!
           </h2>
           <p className="leading-relaxed mb-5">
