@@ -4,22 +4,18 @@ const About = () => {
 
   return (
     <section id="about">
-      <div className="container mx-auto mt-12 flex px-10 py-20 md:flex-row flex-col items-center">
+      <div className="container mx-auto mt-36 flex px-10 py-20 md:flex-row flex-col items-center">
         {/* about/personal brand statement */}
-        <div className="mx-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-            <span class='text-indigo-500'>Hi, I'm Sam!</span> 
-            <br className="hidden lg:inline-block" />
-            <br className="hidden lg:inline-block" />
-            <span class='text-yellow-500'>I want to make web development and STEM more accessible.</span>
-          </h1>
-          <br className="hidden lg:inline-block" /><br className="hidden lg:inline-block" />
+        <div className="mx-16 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 pb-10 md:mb-0 items-center text-center">
+          <h1 className="text-indigo-500 title-font sm:text-4xl text-3xl mb-4 font-medium ">Hi, I'm Sam!</h1>
+          <h1 className="text-yellow-500 title-font sm:text-4xl text-3xl mb-4 font-medium ">I want to make web development and STEM more accessible.</h1>
+
           <p className="my-10 leading-relaxed text-xl">
             I am a Full-Stack Software Engineer with a strong background in Microbiology research and STEM education. As a microbiologist, I grew passionate about creating and finding solutions in a collaborative environment. I have been fortunate to find fulfillment in supporting others through accessible and meaningful learning experiences.
-            <br className="hidden lg:inline-block" />
-            <br className="hidden lg:inline-block" />
+            <br className="hidden lg:inline-block" /><br className="hidden lg:inline-block" />
             As a web developer, I’m having a blast continuously improving my skills and exploring technologies. I am building responsive and features-rich full stack platforms through both solo and collaborative projects. I am seeking more opportunities to grow and leverage my skills and experience to help improve accessibility and promote equity-minded practices. 
           </p>
+
           <div className="flex mx-auto mt-10">
             <a
               href="#contact"

@@ -40,6 +40,18 @@ const Contact = () => {
             <p className="my-2 inline-flex items-center py-1 px-1 focus:outline-none rounded text-base mt-4 md:mt-0"><MdOutlineAlternateEmail className="w-5 h-5 mr-1" /> sam.bassong@gmail.com</p>
             <p className="my-2 inline-flex items-center py-1 px-1 focus:outline-none rounded text-base mt-4 md:mt-0"><MdOutlineLocationOn className="w-5 h-5 mr-1" /> Seattle, WA | Remote</p>
           </div>
+          {/* <div className="bg-black bg-opacity-70 relative flex flex-wrap py-4 rounded shadow-md">
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-white tracking-widest text-s">EMAIL</h2>
+              <p className="text-indigo-500 leading-relaxed">sam.bassong@gmail.com</p>
+
+              <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">PHONE</h2>
+              <p className="leading-relaxed text-indigo-500">206-402-7371</p>
+
+              <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">LOCATION</h2>
+              <p className="mt-1 text-indigo-500">Seattle, WA <br />Remote</p>
+            </div> <div className="lg:w-1/2 px-6"></div><div className="lg:w-1/2 px-6"></div>
+          </div> */}
         </div>
 
         <form

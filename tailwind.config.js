@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
         backgroundImage: {
-          'needle-bg': "url('https://i.imgur.com/Ocqn1dd.jpg?2')",
+          'needle-bg': "url('https://i.imgur.com/HaSdxXz.jpg?1')",
           'crystal-bg': "url('https://i.imgur.com/Io5GjW9.png')",
+          'eastlake-bg': "url('https://i.imgur.com/X5zmTlb.jpg?2')",
         }
       }
   },

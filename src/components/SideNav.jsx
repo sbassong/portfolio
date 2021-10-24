@@ -5,9 +5,9 @@ import React from "react"
 const SideNav = () => {
   return (
     <nav className="overflow-y-hidden lg:overflow-y-hidden lg:sticky h-screen lg:h-screen top-0 w-52 lg:w-96 bg-needle-bg bg-no-repeat bg-cover bg-center" >
-    <nav className="overflow-y-scroll lg:overflow-y-scroll lg:sticky h-screen lg:h-screen top-0 bg-indigo-900 pt-8 w-52 lg:w-96 bg-opacity-70" >
+    <nav className="overflow-y-scroll lg:overflow-y-scroll lg:sticky h-screen lg:h-screen top-0 bg-indigo-900 pt-8 w-52 lg:w-96 bg-opacity-80" >
       <div className="px-12">  
-        <a href="#about">
+        <a href="#introduction">
           <div className="lg:max-w-lg lg:w-2/3 w-2/3 mt-5 mx-auto" >
             <img className="object-cover object-center rounded-full" alt="Sam hero" src="https://i.imgur.com/grMmfrK.jpg"/>
           </div>
