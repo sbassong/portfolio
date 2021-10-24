@@ -20,8 +20,8 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="relative">
-      <div className="container h-screen lg:h-screen top-0 px-5 py-0 pt-48 mx-auto flex sm:flex-nowrap flex-wrap">
+    <section id="contact">
+      <div className="container h-screen lg:h-screen top-0 px-5 py-0 mx-auto flex sm:flex-nowrap flex-wrap flex-col">
         <div className="lg:w-1/2 lg:h-2/3 md:w-1/2 bg-gray-700 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             title="map"
