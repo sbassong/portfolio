@@ -23,7 +23,6 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={handleSubmit}
-          netlify
           name="contact"
           className="lg:w-2/3 flex flex-col md:mx-auto w-full md:py-8 mt-8 md:mt-0 bg-black bg-opacity-50 p-24 rounded-xl ">
           <h2 className="text-yellow-500 sm:text-4xl mb-2 font-medium title-font">

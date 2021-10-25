@@ -16,8 +16,9 @@ const Introduction = () => {
             <div class="text-yellow-500 opacity-70 mt-5 sm:mt-20 text-2xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-7xl">
               <Typewriter 
                 options={{ strings: [
-                  'Synergy oriented',
-                  'Growth minded',
+                  'Adaptability',
+                  'Synergy',
+                  'Growth mindset',
                   'Agile-focused approach',
                   'Elegant solutions',
                 ],

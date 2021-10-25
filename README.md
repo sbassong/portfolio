@@ -4,11 +4,9 @@
 
 ### ***Description/ramblings***
 
-####  Self explanatory, really. This is my portfolio. the very first in fact. Feels awesome to see the result of months of practice culminate into a an actual professional portfolio. 
+####  Self explanatory, really. This is my portfolio. the very first in fact. Feels awesome to see the result of months of practice culminate into an actual professional portfolio. To celebrate, I finally decided to learn and implement TailwindsCSS. That was quite a fun experience. I also implemented email messaging using Emailjs. 
 
-#### To celebrate, I finally decided to learn and implement TailwindsCSS. That was quite a fun experience. I also implemented email messaging using Emailjs. 
-
-#### Usually not great at designing a sleep UI but I really applied myself for this. Dare I say, I feel proud?
+#### Usually not great at designing a sleek UI but I really applied myself for this. Dare I say, I feel proud?
 
 ***
 
@@ -33,10 +31,13 @@
 ### ***Future Updates***
 
 - [ ] Update as relevant to needs
+- [ ] implement screen responsiveness
+- [ ] implement top nav on narrow screens
 - [ ] incorporate 3D animation
 
 ***
 
 ### ***Credits***
 #### Pictures: [DuckDuckGoSearch](https://duckduckgo.com), [Wallpapercave](https://wallpapercave.com/space-needle-wallpaper)
+#### Inspiration: [Andrew Borstein](https://andrewborstein.com/), [Jack Tomaszewski](https://jtom.me/portfolio/)
 
