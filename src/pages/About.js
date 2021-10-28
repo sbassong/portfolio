@@ -18,7 +18,7 @@ const About = () => {
 
           <div className="flex flex-wrap justify-around w-full mt-10">
             <a
-              href="#contact"
+              href="#skills"
               className="mx-auto inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
               Check out my tech stack
             </a>
