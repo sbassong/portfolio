@@ -23,7 +23,7 @@ const SideNav = () => {
             <a href="#about" className="block my-7 lg:inline-block lg:mt-0  hover:text-yellow-400">ABOUT</a>
             <a href="#projects" className="block my-7 lg:inline-block lg:mt-0  hover:text-yellow-400">PROJECTS</a>
             <a href="#skills" className="block my-7 lg:inline-block lg:mt-0 hover:text-yellow-400">SKILLS</a>
-            <a href="https://drive.google.com/file/d/1f-acmG0ZmigutMpkyz26OobO0_2Y3UDh/view?usp=sharing" className="block my-7 lg:inline-block lg:mt-0 hover:text-yellow-400" rel="noreferrer" target="_blank">RESUME</a>
+              <a href="https://drive.google.com/file/d/1vsehuFtOWocfYJI4TDIYDiI5lG-VR2o-/view?usp=sharing" className="block my-7 lg:inline-block lg:mt-0 hover:text-yellow-400" rel="noreferrer" target="_blank">RESUME</a>
           </div>
 
           <a href="#contact" className="w-3/5 my-4 inline-flex items-center bg-yellow-500 border-0 py-2 px-7 focus:outline-none hover:bg-yellow-600 rounded text-white md:mt-0"><MdOutlineEmail className="w-5 h-5 mr-1" /> Message me</a>
