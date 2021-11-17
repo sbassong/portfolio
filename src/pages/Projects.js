@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <section id="projects" className="text-white body-font h-screen">
       <div className="h-screen top-0 px-5 pb-5 lg:px-20 mx-auto text-center bg-black bg-opacity-50">
-        <div className="flex flex-col w-full mb-10">
+        <div className="flex flex-col w-full mb-5 lg:mb-10">
           <h1 className="text-2xl lg:text-4xl font-medium title-font mt-6 lg:mt-10 mb-4 text-yellow-400">Apps I loved building</h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-medium lg:text-xl">Selected solo and collaborative projects. Hover over a cards to see details and the techs used for implementation. Click on the orange links to find more.</p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-sm lg:text-lg">Selected solo and collaborative projects. Hover over a cards to see details and the techs used for implementation. Click on the orange links to find more.</p>
         </div>
 
         {/* <div className="grid gap-5 grid-cols-2"> */}

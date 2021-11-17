@@ -4,9 +4,9 @@ const Skills = () => {
   
   return (
     <section id="skills">
-      <div className="container h-screen  px-5 py-10 mx-auto bg-indigo-500 bg-opacity-40">
-        <div className="text-center mb-20 lg:mb-12">
-          <h1 className="sm:text-4xl text-3xl font-bold title-font text-white">
+      <div className="container h-screen  px-5 py-8 mx-auto bg-indigo-500 bg-opacity-40">
+        <div className="text-center mb-14 lg:mb-12">
+          <h1 className="lg:text-4xl text-3xl font-bold title-font text-white">
             Skills &amp; Technologies
           </h1>
         </div>
