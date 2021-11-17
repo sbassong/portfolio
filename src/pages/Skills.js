@@ -3,7 +3,7 @@
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="container h-screen lg:h-screen top-5 px-5 py-10 mx-auto bg-indigo-500 bg-opacity-40">
+      <div className="container h-screen top-5 px-5 py-10 mx-auto bg-indigo-500 bg-opacity-40">
         <div className="text-center mb-12">
           <h1 className="sm:text-4xl text-3xl font-bold title-font text-white">
             Skills &amp; Technologies
