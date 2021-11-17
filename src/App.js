@@ -46,7 +46,7 @@ const App = () => {
         <Contact />
       </main>
         :
-      <main  >
+      <main className='w-full' >
         <Introduction />
         <About />
         <Projects />
