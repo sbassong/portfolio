@@ -10,7 +10,7 @@ import SideNav from './components/SideNav'
 import TopNav from './components/TopNav'
 
 const App = () => {
-  const [windowDimenion, detectHW] = useState({
+  const [windowDimension, detectHW] = useState({
     winWidth: window.innerWidth,
     winHeight: window.innerHeight,
   })
@@ -28,14 +28,14 @@ const App = () => {
     return () => {
       window.removeEventListener('resize', detectSize)
     }
-  }, [windowDimenion])
+  }, [windowDimension])
 
   return (
     <div className="App flex bg-crystal-bg bg-no-repeat bg-cover bg-center bg-opacity-70">
-      {windowDimenion.winWidth >= 768 && <SideNav />}
+      {windowDimension.winWidth >= 768 && <SideNav windowDimension={windowDimension}/>}
       
       {
-        windowDimenion.winWidth < 768 
+        windowDimension.winWidth < 768 
         ?
         <main className='w-full'>
         <TopNav />
