@@ -15,7 +15,7 @@ const Projects = () => {
         {/* <div className="grid gap-5 grid-cols-2"> */}
         <div className="container h-3/4 xl:h-auto overflow-y-auto xl:overflow-hidden grid grid-cols-1 xl:gap-5 xl:grid-cols-2">
           {projects.map(project => (
-            <ProjectCard project={project} />
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>

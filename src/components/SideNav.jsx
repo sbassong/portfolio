@@ -27,8 +27,8 @@ const SideNav = () => {
           </div>
 
           <a href="#contact" className="w-auto my-2 lg:my-3 inline-flex items-center bg-yellow-500 border-0 py-1 lg:py-2 px-5 lg:px-6 focus:outline-none hover:bg-yellow-600 rounded text-white text-sm lg:text-base"><MdOutlineEmail className="w-5 h-5 mr-1" /> Message me</a>
-            <a href="https://www.linkedin.com/in/sambassong/" className="w-auto my-2 lg:my-3 inline-flex items-center bg-blue-500 border-0 py-1 lg:py-2 px-4 lg:px-5 focus:outline-none hover:bg-blue-600 rounded text-white text-sm lg:text-base" rel="noreferrer" target="_blank"><FaLinkedin className="w-5 h-5 mr-1" />Let's connect!</a>
-            <a href="https://github.com/sbassong" className="w-auto my-2 lg:my-3 inline-flex items-center bg-gray-800 border-0 py-1 lg:py-2 px-6 lg:px-7 focus:outline-none hover:bg-gray-900 rounded text-white text-sm lg:text-base" rel="noreferrer" target="_blank"><FaGithub className="w-5 h-5 mr-1" />Love code?</a>
+          <a href="https://www.linkedin.com/in/sambassong/" className="w-auto my-2 lg:my-3 inline-flex items-center bg-blue-500 border-0 py-1 lg:py-2 px-4 lg:px-5 focus:outline-none hover:bg-blue-600 rounded text-white text-sm lg:text-base" rel="noreferrer" target="_blank"><FaLinkedin className="w-5 h-5 mr-1" />Let's connect!</a>
+          <a href="https://github.com/sbassong" className="w-auto my-2 lg:my-3 inline-flex items-center bg-gray-800 border-0 py-1 lg:py-2 px-6 lg:px-7 focus:outline-none hover:bg-gray-900 rounded text-white text-sm lg:text-base" rel="noreferrer" target="_blank"><FaGithub className="w-5 h-5 mr-1" />Love code?</a>
         
           <div className="w-full bg-black relative bg-opacity-60 text-white font-semibold flex flex-col mb-3 lg:mb-4 mt-6 lg:mt-8 shadow-md py-2 rounded items-center">
             <p className="text-lg lg:text-xl title-font font-medium text-yellow-400 mb-3 lg:mb-4">Contact me</p>

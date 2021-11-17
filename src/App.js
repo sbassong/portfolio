@@ -7,6 +7,7 @@ import Skills from './pages/Skills'
 import Introduction from './pages/Introduction'
 
 import SideNav from './components/SideNav'
+import TopNav from './components/TopNav'
 
 const App = () => {
   const [windowDimenion, detectHW] = useState({
@@ -14,6 +15,7 @@ const App = () => {
     winHeight: window.innerHeight,
   })
 
+  //detects the width and height of window on resize event
   const detectSize = () => {
     detectHW({
       winWidth: window.innerWidth,
@@ -23,7 +25,6 @@ const App = () => {
 
   useEffect(() => {
     window.addEventListener('resize', detectSize)
-    console.log(windowDimenion.winWidth)
     return () => {
       window.removeEventListener('resize', detectSize)
     }
@@ -37,6 +38,7 @@ const App = () => {
         windowDimenion.winWidth < 768 
         ?
         <main className='w-full'>
+        <TopNav />
         <Introduction />
         <About />
         <Projects />

@@ -19,12 +19,12 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <div className="container h-screen top-0 px-5 pt-40 mx-auto flex sm:flex-nowrap flex-wrap flex-col bg-opacity-60">
+      <div className="container h-screen top-0 px-5 pt-20 mx-auto flex sm:flex-nowrap flex-wrap flex-col bg-opacity-60">
         <form
           ref={form}
           onSubmit={handleSubmit}
           name="contact"
-          className="w-full md:w-4/5 lg:w-2/3 flex flex-col mx-auto sm:py-2 md:py-8 mt-8 md:mt-0 bg-black bg-opacity-50 p-8 md:p-16 lg:p-24 rounded-xl ">
+          className="w-full md:w-4/5 lg:w-2/3 flex flex-col mx-auto sm:py-2 md:py-8 mt-8 md:mt-0 bg-black bg-opacity-50 p-4 md:p-12 lg:p-24 rounded-xl ">
           <h2 className="text-yellow-500 sm:text-4xl mb-2 font-medium title-font">
             Let's chat!
           </h2>
