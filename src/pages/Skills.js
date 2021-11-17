@@ -1,6 +1,7 @@
 
 
 const Skills = () => {
+  
   return (
     <section id="skills">
       <div className="container h-screen  px-5 py-10 mx-auto bg-indigo-500 bg-opacity-40">
