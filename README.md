@@ -1,4 +1,4 @@
-###  [Porfolio]() | [GitHub](https://github.com/sbassong) | [LinkedIn](https://www.linkedin.com/in/sambassong/)
+###  [Porfolio](f) | [GitHub](https://github.com/sbassong) | [LinkedIn](https://www.linkedin.com/in/sambassong/)
 ### By: Sam Bassong
 ***
 
