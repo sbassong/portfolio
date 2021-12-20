@@ -1,4 +1,4 @@
-###  [Porfolio](f) | [GitHub](https://github.com/sbassong) | [LinkedIn](https://www.linkedin.com/in/sambassong/)
+###  [Porfolio](portfolio-jkj4905x8-sbassong.vercel.app) | [GitHub](https://github.com/sbassong) | [LinkedIn](https://www.linkedin.com/in/sambassong/)
 ### By: Sam Bassong
 ***
 
@@ -25,7 +25,7 @@
 2. Run `npm start` to start react app server
 3. Head to `http://localhost:3000/` on your favorite browser to check out the render
 
-4. alternatively, use the [deployed link]()...
+4. alternatively, use the [deployed link](portfolio-jkj4905x8-sbassong.vercel.app)...
 ***
 
 ### ***Future Updates***
