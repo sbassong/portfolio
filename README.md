@@ -31,8 +31,8 @@
 ### ***Future Updates***
 
 - [ ] Update as relevant to needs
-- [ ] implement screen responsiveness
-- [ ] implement top nav on narrow screens
+- [x] implement screen responsiveness
+- [x] implement top nav on narrow screens
 - [ ] incorporate 3D animation
 
 ***
