@@ -24,7 +24,7 @@ const SideNav = ({windowDimension}) => {
             <a href="#about" className="block my-5 lg:my-5 lg:inline-block lg:mt-0  hover:text-yellow-400">ABOUT</a>
             <a href="#projects" className="block my-5 lg:inline-block lg:mt-0  hover:text-yellow-400">PROJECTS</a>
             <a href="#skills" className="block my-5 lg:inline-block lg:mt-0 hover:text-yellow-400">SKILLS</a>
-            <a href="https://drive.google.com/file/d/1vsehuFtOWocfYJI4TDIYDiI5lG-VR2o-/view?usp=sharing" className="block my-5 lg:inline-block lg:mt-0 hover:text-yellow-400" rel="noreferrer" target="_blank">RESUME</a>
+              <a href="https://drive.google.com/file/d/1jDSvXbmOqkpDMiOHBlVvXfsqMJCcT2Wr/view?usp=sharing" className="block my-5 lg:inline-block lg:mt-0 hover:text-yellow-400" rel="noreferrer" target="_blank">RESUME</a>
           </div>
 
           <a href="#contact" className="w-auto my-4 lg:my-2 inline-flex items-center bg-yellow-500 border-0 py-1 lg:py-2 px-5 lg:px-6 focus:outline-none hover:bg-yellow-600 rounded text-white text-sm lg:text-base"><MdOutlineEmail className="w-5 h-5 mr-1" /> Message me</a>
